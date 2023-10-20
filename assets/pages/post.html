@@ -27,6 +27,17 @@
             height: 100%;
             background-color: rgba(0, 0, 0, 0.3);
         }
+
+        @media screen and (max-width: 880px){
+	        .content img{
+            width: 100%;
+            height: 500px;
+          }
+
+          .header-title{
+            display: none;
+          }
+        }
       </style>
 </head>
 <body class="bg-white dark:bg-gray-900">
@@ -37,7 +48,7 @@
                 <div class="container m-auto md:px-12 lg:py-0 lg:px-10">
                     <div class="flex flex-wrap items-center justify-between py-4 gap-6 md:gap-0">
                         <input type="checkbox" name="toggle_nav" id="toggle_nav" class="peer hidden">
-                        <div class="w-full px-6 flex justify-between md:w-max md:px-0 z-30">
+                        <div class="w-full header-title px-6 flex justify-between md:w-max md:px-0 z-30">
                             <a href="/./index.html" aria-label="logo">
                                <h1 class="text-2xl text-gray-300">L'art du maketing de l'image.</h1>
                             </a>
@@ -135,7 +146,7 @@
                 <div class="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                   <div class="content mb-12 space-y-2 text-center">
                     
-                    <img src="../images/medium-shot-man-looking-camera.jpg" class="w-90p m-auto" alt="">
+                    <img src="../images/medium-shot-man-looking-camera.jpg" class="w-100p m-auto" alt="">
                     <h2 class="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">Pourquoi utiliser le marketing de l'image dans son marketing digital ?</h2>
                     <p class="lg:mx-auto lg:w-4/5 text-gray-600 dark:text-gray-300">
                         Les tendances marketing et social media ont évolué très vite au cours des dernières années. L’une des plus marquantes est sans doute la prédominance des images au sein des différents supports de communication : sites web, blogs, réseaux sociaux, newsletters… Pourquoi utiliser le marketing de l'image ?  Parce que que ce soit pour vendre un produit, pour communiquer à propos de quelque chose ou simplement pour s’adresser à sa communauté, la portée des images est telle qu’il est désormais indispensable de se passer d’elles.
